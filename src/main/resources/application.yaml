@@ -1,2 +1,8 @@
 server:
   port: 8090
+
+spring:
+  cache:
+    redis:
+      time-to-live: 10S
+    type: simple
